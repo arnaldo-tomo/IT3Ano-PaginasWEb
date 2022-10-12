@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Contacto - Arnaldo Tomo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../forms/css/estilo.css">
+
+</head>
+
+<body validaCampo()>
+    <header class="nav">
+        <img src="../forms/img/logo.png" href="/index.html" class="logo">
+        <nav>
+            <ul class=" header">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../forms/sobre.html">SOBRE</a></li>
+                <li><a href="../forms/cv.html">CV</a></li>
+                <li><a href="../forms/Contacto.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact section" id="contact">
+        <h1 class="section-title">Contacto</h1>
+        <div id="conatcto">
+            <h3>Beira,<span> MOÇAMBIQUE</span><s></s></h3>
+            <p>Para entrar em conatcto comigo segua os passos a baixo.</p>
+            <div class="contact__container bd-grid">
+                <form id="cadastro" name="cadastro" onsubmit="return validaCampo(); return false;">
+                    <input type="text" name="nome" required="" type="text" id="nome" size="70" maxlength="60"
+                        placeholder="Informe o seu Name" class="contact__input">
+                    <input type="mail" name="email" type="text" id="email" size="70" maxlength="60"
+                        placeholder=" Informe o seu E-mail" class="contact__input">
+                    <textarea name="" name="endereco" type="text" id="endereco" size="70" maxlength="70"
+                        placeholder="Seu mesangem" id="" cols="0" rows="10" class="contact__input"> </textarea>
+                    <a> <img src="../favicon.png"><input type="submit" value="ENVIAR" class="contact__button button"
+                            name="cadastrar" type="submit" id="cadastrar" value="Concluir meu Cadastro!"></a>
+                </form>
+            </div>
+    </section>
+    <script src="js/JavaScript.js"></script>
+</body>
+
+</html>

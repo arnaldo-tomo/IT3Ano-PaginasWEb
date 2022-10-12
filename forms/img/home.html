@@ -1,0 +1,206 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <title>nado Primeiro teste de perssonn</title>
+
+
+    <style type="text/css">
+        .style1 {
+            color: #FF0000;
+            font-size: x-small;
+        }
+
+        .style3 {
+            color: #0000FF;
+            font-size: x-small;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function validaCampo() {
+
+            if (document.cadastro.nome.value == "") {
+                alert("O Campo Nome e Obrigatorio!");
+                return false;
+            } else
+
+                if (document.cadastro.email.value == "") {
+                    alert("O Campo Email e Obrigatorio!");
+                    return false;
+
+                } else
+                    if (document.cadastro.textarea.value == "") {
+                        alert("O Campo Textarea e Obrigatorio!");
+                        return false;
+                    }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Um</h1>
+    <form id="cadastro" name="cadastro" method="" action="" onsubmit="return validaCampo(); return false;">
+        <table width="625">
+
+            <tr>
+                <td width="69">Nome:</td>
+                <td width="546"><input name="nome" type="text" id="nome" size="70" maxlength="60" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input name="email" type="text" id="email" size="70" maxlength="60" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>Sexo:</td>
+                <td>
+                    <input name="sexo" type="radio" value="Masculino" />
+                    Masculino
+                    <input name="sexo" type="radio" value="Feminino" />
+                    Feminino
+                </td>
+            </tr>
+
+            <tr>
+                <td>Estado Civil:</td>
+                <td>
+                    <input name="Solteiro" type="radio" value="Masculino" />
+                    Solteiro
+                    <input name="Casado" type="radio" value="Masculino" />
+                    Casado
+                    <input name="Enrolando" type="radio" value="Feminino" />
+                    Enrolando
+                </td>
+            </tr>
+
+            <tr>
+                <td>Bens que Pussui:</td>
+                <td>
+                    <input name="Carros" type="checkbox" value="" />
+                    Carros
+                    <input name="Motas" type="checkbox" value="" />
+                    Motas
+                    <input name="Machambas" type="checkbox" value="" />
+                    Machambas
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td>Idade:</td>
+                <td><select name="idade" id="idade">
+                        <option>Selecione...</option>
+                        <option value="3 a 5">3 a 5</option>
+                        <option value="11 a 25">11 a 25</option>
+                        <option value="25 a 35 ">25 a 35</option>
+                        <option value="36 a 55">36 a 55</option>
+                        <option value="56 a 90">56 a 90</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hobby Preferido:</td>
+                <td><select name="Hobby" id="Hobby">
+                        <option>Selecione....</option>
+                        <option value="ler livros">ler livros</option>
+                        <option value="ouvir musica">ouvir musica</option>
+                        <option value="Assistir filmes ">Assistir filmes</option>
+                        <option value="Praticar desporto">Praticar desporto</option>
+                        <option value="Jogar games">Jogar games</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Observaçoes:</td>
+                <td>
+                    <textarea name="textarea" type="textarea" id="textarea" maxlength="70"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <p>
+                        <input name="cadastrar" type="submit" id="cadastrar" value="Enviar" />
+                        <br />
+                        <input name="limpar" type="reset" id="limpar" value="Limpar " />
+                        <br />
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+    <h1>Dois</h1>
+    <table border="1">
+        <tr>
+            <th>Processador</th>
+            <th>Velociade<br>(MHz)</th>
+            <th>Preço de <br> Lançamento*</th>
+            <th>Data de <br> Lançamento</th>
+            <th>Preço em <br> Agosto/2000*</th>
+            <th>Queda <br> %</th>
+        </tr>
+        <tr>
+            <td>AMD K-6</td>
+            <td>200</td>
+            <td>315</td>
+            <td>Abril/97</td>
+            <td>107</td>
+            <td>66</td>
+        </tr>
+        <tr>
+            <td>AMD K-6</td>
+            <td>200</td>
+            <td>315</td>
+            <td>Abril/97</td>
+            <td>107</td>
+            <td>66</td>
+        </tr>
+        <tr>
+            <td>AMD K-6</td>
+            <td>200</td>
+            <td>315</td>
+            <td>Abril/97</td>
+            <td>107</td>
+            <td>66</td>
+        </tr>
+        <tr>
+            <td>AMD K-6</td>
+            <td>200</td>
+            <td>315</td>
+            <td>Abril/97</td>
+            <td>107</td>
+            <td>66</td>
+        </tr>
+        <tr>
+            <td>AMD K-6</td>
+            <td>200</td>
+            <td>315</td>
+            <td>Abril/97</td>
+            <td>107</td>
+            <td>66</td>
+        </tr>
+        <tr>
+            <td>AMD K-6</td>
+            <td>200</td>
+            <td>315</td>
+            <td>Abril/97</td>
+            <td>107</td>
+            <td>66</td>
+        </tr>
+    </table>
+</body>
+
+</html>
